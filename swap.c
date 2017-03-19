@@ -9,6 +9,10 @@ int main(void)
     printf("Y is 44\n");
     
     //swapping
+    int temp = x;
+    x = y;
+    y = temp;
+    
     
     printf("X is now %d \n",x);
     printf("Y is now %d \n",y);
